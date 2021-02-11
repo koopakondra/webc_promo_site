@@ -1,0 +1,229 @@
+
+body {
+  background-color: black;
+
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  font-family: freight-display-pro, serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h2 {
+  font-family: goudy-bookletter-1911, serif;
+  font-weight: 400;
+  font-style: normal;
+
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 35px;
+  color: white;
+}
+
+h3 {
+  font-family: goudy-bookletter-1911, serif;
+  font-weight: 400;
+  font-style: normal;
+
+  text-transform: lowercase;
+  font-size: 35px;
+  color: white;
+}
+
+p {
+  font-family: freight-display-pro, serif;
+  font-weight: 600;
+  font-style: normal;
+
+  font-size: 30px;
+  line-height: 10px;
+
+  text-align: left;
+}
+
+a {
+  color: white;
+}
+
+
+/* cover page */
+
+img#cover {
+  width:1200px;
+
+  position: absolute;
+  top: 0;
+  left: 50vw;
+  transform: translate(-50%, 0);
+
+  z-index: -10;
+}
+
+h1#title {
+  font-size: 150px;
+  color: white;
+
+  margin-top: 0px;
+}
+
+h2#single {
+  margin-top: 450px;
+}
+
+div#action-line {
+  margin-top:125px;
+  display:flex;
+
+  justify-content: space-between;
+
+  width:500px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* footer */
+
+div#footer-line {
+  display:flex;
+
+  justify-content: space-between;
+
+  width:750px;
+
+  margin-top:1350px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 a {
+  text-decoration: none;
+}
+
+
+/* album grid */
+
+div#album-chart {
+  position: absolute;
+  top: 925px;
+  left: 50vw;
+  transform: translate(-50%, 0);
+
+  margin-top: 100px;
+
+  padding: 0;
+  width: 1200px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  background-color: white;
+}
+
+div.album-entry {
+  padding: 0;
+  margin: 0;
+
+  position: relative;
+
+  width: 600px;
+  height: 300px;
+
+  color:black;
+}
+
+img.album-art {
+  width: 250px;
+  height: 250px;
+
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+div.album-entry p {
+  position: absolute;
+  left: 300px;
+}
+
+div.album-entry p.song-name {
+  top: 25px;
+}
+div.album-entry p.song-info {
+  top: 60px;
+}
+div.album-entry p.quote-line-1 {
+  top: 175px;
+}
+div.album-entry p.quote-line-2 {
+  top: 210px;
+}
+
+
+
+
+
+
+
+/* album colors */
+
+div.album-entry#love {
+  background-color: #ABA8FE66;
+}
+div.album-entry#love p.song-quote {
+  color: #7A70F7;
+}
+
+div.album-entry#pink-party {
+  background-color: #4FA9EF66;
+}
+div.album-entry#pink-party p.song-quote {
+  color:#026FCC ;
+}
+
+div.album-entry#miss-america {
+  background-color: #5175C666;
+}
+div.album-entry#miss-america p.song-quote {
+  color: #2B5DA2;
+}
+
+div.album-entry#makeup-drawer {
+  background-color: #C97D8D66;
+}
+div.album-entry#makeup-drawer p.song-quote {
+  color: #A36597;
+}
+
+div.album-entry#isaac-insects {
+  background-color: #33506566;
+}
+div.album-entry#isaac-insects p.song-quote {
+  color: #273859;
+}
+
+div.album-entry#onion-boy {
+  background-color: #153B2866;
+}
+div.album-entry#onion-boy p.song-quote {
+  color: #0B7D1A;
+}
+
+div.album-entry#scortons-creek {
+  background-color: #3D3C2666;
+}
+div.album-entry#scortons-creek p.song-quote {
+  color: #5E3A16;
+}
+
+div.album-entry#mime {
+  background-color: #C81E1966;
+}
+div.album-entry#mime p.song-quote {
+  color: #9E1B1E;
+}
